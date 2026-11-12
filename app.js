@@ -75,3 +75,16 @@ function backSpace () {
         }
     }
 }
+
+
+// Light / Dark Mode
+function changeMode(e) {
+    var myBody = document.body
+    if (!myBody.classList.contains("light-mode")) {
+        myBody.classList.add("light-mode")
+        console.log("light mode on");
+    } else{
+        myBody.classList.remove("light-mode")
+        console.log("Dark mode on");
+    }
+}

@@ -114,3 +114,58 @@ button {
 .span-two {
     grid-column: span 2;
 }
+
+.mode {
+    position: absolute;
+    top: 20px; 
+    left: 20px;
+    font-size: 25px;  
+    color: white;
+    cursor: pointer;
+}
+
+                    /* LIGHT MODE COLORS */
+
+body.light-mode {
+    background: radial-gradient(circle at center, #dfc9f6 0%, #cde2fc 100%);
+}
+
+body.light-mode .mode {
+    color: #4a3d8b;
+}
+
+body.light-mode .main {
+    background: #d1abfa;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+body.light-mode input {
+    background: #dfc9f6;
+    color: #1e293b;
+}
+
+body.light-mode .history-text {
+    color: #64748b;
+}
+
+body.light-mode .a {
+    background-color: #fda4af;
+}
+
+body.light-mode .b {
+    background-color: #cbd5e1;
+    color: #334155;
+}
+
+body.light-mode .c {
+    background-color: #818cf8;
+}
+
+body.light-mode .d {
+    background-color: #f1f5f9;
+    color: #334155;
+}
+
+body.light-mode .e {
+    background-color: #6366f1;
+}
